@@ -1,0 +1,12 @@
+[package]
+name = "rusty_assistant"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+copypasta = "0.10.1"
+iced = { version = "0.12.1"  }
+ollama-rs = { version = "0.2.1", features = ["stream"] }
+tokio = { version = "1.42.0", features = ["full"] }
+tokio-stream = "0.1.17"
+wl-clipboard-rs = "0.9.1"
